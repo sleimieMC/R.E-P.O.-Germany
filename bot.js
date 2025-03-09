@@ -5,12 +5,13 @@ const fs = require("fs");
 const { Classic } = require("musicard");
 const { prefix } = require('./config.json');
 
+// Ersetzen des Nodes mit einem öffentlichen Lavalink-Node
 const nodes = [
     {
-        host: "37.114.42.191",
-        port: 9906,
-        password: "danteisnttaken",
-        secure: false
+        host: "lavalink.oops.wtf",
+        port: 443,
+        password: "www.freelavalink.ga",
+        secure: true
     },
 ];
 
